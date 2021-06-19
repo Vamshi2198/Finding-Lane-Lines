@@ -11,12 +11,13 @@
 
 ## Pipeline:
 ### **Step 1 :** Read the image.
+     ![alt text](https://github.com/Vamshi2198/Finding-Lane-Lines/blob/main/Images_Readme/Image.png)
 ### **Step 2 :** Convert the image to a gray scale.
-### **Step 1 :** Apply Gaussian smoothing to reduce the noise in the picture.
-### **Step 1 :** Apply Canny Edge Detection to extract edges. 
-### **Step 1 :** Apply region of interest to identify only the lanes on road.
-### **Step 1 :** Apply Hough Transform to get the lines from the image
-### **Step 1 :** Apply weighted sum of input image and the image obtained after Hough Tranform to get the lanes on the road.
+### **Step 3 :** Apply Gaussian smoothing to reduce the noise in the picture.
+### **Step 4 :** Apply Canny Edge Detection to extract edges. 
+### **Step 5 :** Apply region of interest to identify only the lanes on road.
+### **Step 6 :** Apply Hough Transform to get the lines from the image
+### **Step 7 :** Apply weighted sum of input image and the image obtained after Hough Tranform to get the lanes on the road.
 
 
 
