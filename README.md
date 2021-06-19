@@ -24,7 +24,8 @@
 ![Hough](https://user-images.githubusercontent.com/85461865/122636781-0963e180-d0b9-11eb-835a-ac4e3f916142.png)
 ### **Step 7 :** Apply weighted sum of input image and the image obtained after Hough Tranform to get the lanes on the road.
 ![lane_lines](https://user-images.githubusercontent.com/85461865/122636809-2f898180-d0b9-11eb-9f4b-2958c0090b59.png)
-
+### In order to draw a single line on the left and right lanes, I modified the draw_lines() function by calculating the slope, and depending on the sign of the slope (positive or negative), separated left and right lane line. Then, I took the average of the position of each of the lines and extrapolate to the top and bottom of the lane.
+![extrapolated](https://user-images.githubusercontent.com/85461865/122637104-e5090480-d0ba-11eb-94e3-a15bfbb63da8.png)
 
 
 
