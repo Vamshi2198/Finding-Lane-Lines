@@ -13,11 +13,17 @@
 ### **Step 1 :** Read the image.
 ![Image](https://user-images.githubusercontent.com/85461865/122636591-1502d880-d0b8-11eb-9c19-04df283c068e.png)
 ### **Step 2 :** Convert the image to a gray scale.
+![gray](https://user-images.githubusercontent.com/85461865/122636742-dd486080-d0b8-11eb-8bfb-becf85ae3f3b.png)
 ### **Step 3 :** Apply Gaussian smoothing to reduce the noise in the picture.
+![blur](https://user-images.githubusercontent.com/85461865/122636753-e6393200-d0b8-11eb-8c0d-34ae4f8a861c.png)
 ### **Step 4 :** Apply Canny Edge Detection to extract edges. 
+![edges](https://user-images.githubusercontent.com/85461865/122636762-f3eeb780-d0b8-11eb-8146-926f507b1a33.png)
 ### **Step 5 :** Apply region of interest to identify only the lanes on road.
+![Region](https://user-images.githubusercontent.com/85461865/122636771-ff41e300-d0b8-11eb-8e46-5f595e65c9e8.png)
 ### **Step 6 :** Apply Hough Transform to get the lines from the image
+![Hough](https://user-images.githubusercontent.com/85461865/122636781-0963e180-d0b9-11eb-835a-ac4e3f916142.png)
 ### **Step 7 :** Apply weighted sum of input image and the image obtained after Hough Tranform to get the lanes on the road.
+![lane_lines](https://user-images.githubusercontent.com/85461865/122636809-2f898180-d0b9-11eb-9f4b-2958c0090b59.png)
 
 
 
