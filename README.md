@@ -11,7 +11,7 @@
 
 ## Pipeline:
 ### **Step 1 :** Read the image.
-     ![alt text](https://github.com/Vamshi2198/Finding-Lane-Lines/blob/main/Images_Readme/Image.png)
+     ![Original image](https://github.com/Vamshi2198/Finding-Lane-Lines/blob/main/Images_Readme/Image.png)
 ### **Step 2 :** Convert the image to a gray scale.
 ### **Step 3 :** Apply Gaussian smoothing to reduce the noise in the picture.
 ### **Step 4 :** Apply Canny Edge Detection to extract edges. 
