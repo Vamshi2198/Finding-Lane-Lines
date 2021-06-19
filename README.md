@@ -27,6 +27,11 @@
 ### In order to draw a single line on the left and right lanes, I modified the draw_lines() function by calculating the slope, and depending on the sign of the slope (positive or negative), separated left and right lane line. Then, I took the average of the position of each of the lines and extrapolate to the top and bottom of the lane.
 ![extrapolated](https://user-images.githubusercontent.com/85461865/122637104-e5090480-d0ba-11eb-94e3-a15bfbb63da8.png)
 
+## Potential Shortcomings:
+1. As the region of interest is confined, The code does not give a good output when turning.
+1. The camera is assumed to be placed at the center. so, it gives a bad output on the curves.
+1. The code does not work if there is any change in the color observed by the camera 
+
 
 
 
