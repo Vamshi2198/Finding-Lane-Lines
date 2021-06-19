@@ -11,7 +11,7 @@
 
 ## Pipeline:
 ### **Step 1 :** Read the image.
-     ![Image](https://user-images.githubusercontent.com/85461865/122636591-1502d880-d0b8-11eb-9c19-04df283c068e.png)
+![Image](https://user-images.githubusercontent.com/85461865/122636591-1502d880-d0b8-11eb-9c19-04df283c068e.png)
 ### **Step 2 :** Convert the image to a gray scale.
 ### **Step 3 :** Apply Gaussian smoothing to reduce the noise in the picture.
 ### **Step 4 :** Apply Canny Edge Detection to extract edges. 
