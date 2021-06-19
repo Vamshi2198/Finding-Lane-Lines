@@ -4,6 +4,8 @@
 ## Objective:
 ### The goal of the project is to build a pipeline to find lane lines on the road using python and OpenCV.
 
+![](https://github.com/Vamshi2198/Finding-Lane-Lines/blob/main/solidWhiteRight.gif)
+
 ## Instructions:
 ### To get started, you need to have some packages. click [here](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) to setup all the requirements. Before creating the environment, change the text in the environment.yml file as provided in the repository.
 
