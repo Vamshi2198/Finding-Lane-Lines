@@ -30,7 +30,11 @@
 ## Potential Shortcomings:
 1. As the region of interest is confined, The code does not give a good output when turning.
 1. The camera is assumed to be placed at the center. so, it gives a bad output on the curves.
-1. The code does not work if there is any change in the color observed by the camera 
+1. The code does not work if there is any change in the color observed by the camera. 
+
+## Possible improvements:
+1. [Parameter tuning](https://medium.com/@maunesh/finding-the-right-parameters-for-your-computer-vision-algorithm-d55643b6f954). You can check this tool to change your parameters.
+1.  working on a function to account for the curved paths.
 
 
 
